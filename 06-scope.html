@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope</title>
+</head>
+<body>
+    <h2>Scope - Global </h2>
+    <script>
+        var aaa = "Hello";const city = "Pune";
+console.log(city);
+// city = "Mumbai";// Not allowed
+// console.log(city);
+
+let age;
+console.log(age);
+age = 22;
+console.log(age);
+age = 50;
+console.log(age);
+
+let isMarried = true;
+console.log(isMarried);
+
+var street = "Wakad";
+var street = "SB Road";
+
+// let isMarried = "No"; // Not allowed
+
+function show(){
+    if(10>5){
+        var firstName = "Stew";
+        let lastName = "Jobs";
+        const position = "UI Developer"; 
+    }
+    console.log(firstName);
+    // console.log(lastName); // Not allowed
+    // console.log(position); //Not allowed 
+}
+show();
+// console.log(firstName, lastName, position); // Not Allowed
+        console.log(aaa);
+
+    </script>
+</body>
+</html>

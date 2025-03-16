@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Assign</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML & JavaScript are crucial technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div id="advantage">
+            <ul>
+                <li>Flexible</li>
+                <li id="Available">Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+
+    </main>
+    <script>
+
+       console.log("===Main Heading===");
+        
+         const mainHeading = document.querySelector("h1");
+         console.log(mainHeading.innerText);
+
+      console.log("===Second Advantage===");
+
+        const secondAdvantage = document.querySelector("#Available");
+        console.log(secondAdvantage.innerText);
+
+     console.log("===advance Div===");
+         const advDiv = document.querySelector("#advantage");
+         console.log(advDiv.innerText);
+
+
+
+
+
+    </script>
+
+    
+</body>
+</html>
