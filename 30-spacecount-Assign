@@ -1,0 +1,20 @@
+function calSpaces(stringline)
+{
+  var spaces = 0;
+
+  for(var i = 0; i < stringline.length; i++) 
+  {
+    if (stringline[i] === ' ') {
+       spaces ++;
+    }
+  }
+  return spaces ;
+}console.log(`Revision is the mother of success`);
+console.log(`Number of spaces in given string is: ${calSpaces("Revision is the mother of success")}`);
+
+
+console.log(`Javascript is the language of internet world`);
+
+console.log(`Number of space in given string is :${calSpaces("Javascript is the language of internet world")}`); //
+
+
